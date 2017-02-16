@@ -5,6 +5,7 @@
 * Public Methods
  * [ngModule(ngModule)](#ngmodulengmodule-ngmodule-framingngmodule)
  * [child(child, forRoute)](#childchild-route-forroute-route---framingngmodule)
+ * [children(children)](#childrenchildren-route-framingngmodule)
  
 
 ## Constructor
