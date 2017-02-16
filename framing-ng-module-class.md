@@ -61,7 +61,7 @@ Basic usage
 @NgModule(Framing
   .ngModule()
   .child({ path: 'products', loadChildren: './products/index#ProductsModule' })
-  .frame()
+  .frame())
  ```
 
 
@@ -88,7 +88,7 @@ Basic usage
   .ngModule()
   .children([
     { path: 'products', loadChildren: './products/index#ProductsModule' },
-    { path: 'orders', loadChildren: './orders/index#OrdersModule' }
+    { path: 'orders', loadChildren: './orders/index#OrdersModule' },
   ])
-  .frame()
+  .frame())
  ```
