@@ -6,6 +6,7 @@
  * [ngModule(ngModule)](#ngmodulengmodule-ngmodule-framingngmodule)
  * [child(child, forRoute)](#childchild-route-forroute-route---framingngmodule)
  * [children(children)](#childrenchildren-route-framingngmodule)
+ * [component(component, config)](#componentcomponent-config-framingngmodule)
  
 
 ## Constructor
@@ -95,7 +96,7 @@ Basic usage
  
  
  
- ### component(component: any, config?: FramingComponentConfig): FramingNgModule
+### component(component: any, config?: FramingComponentConfig): FramingNgModule
  
 Adds to declarations
 Adds to exports
