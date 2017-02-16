@@ -49,9 +49,9 @@ Add a child route. Adds to '' route by default
 
 #### Example
 
-``
+```typescript
 @NgModule(Framing
   .ngModule()
   .child({ path: 'products', loadChildren: './products/index#ProductsModule' })
   .frame()
- ``
+ ```
