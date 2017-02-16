@@ -79,7 +79,7 @@ Output
           { path: 'products', loadChildren: './products/index#ProductsModules' },
         ],
       }
-    ]);
+    ])
   ],
 })
 ```
