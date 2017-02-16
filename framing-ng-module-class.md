@@ -8,7 +8,7 @@
 
 ### constructor(ngModule?: NgModule)
 
-#### Params
+#### Parameters
 
 * ngModule?: NgModule
 
@@ -24,7 +24,7 @@
 
 ### ngModule(ngModule?: NgModule): FramingNgModule
 
-#### Params
+#### Parameters
 
 * ngModule?: NgModule
 
@@ -38,7 +38,7 @@
 
 Add a child route. Adds to '' route by default
 
-#### Params
+#### Parameters
 
 * child: Route
 * forRoute: Route = {}
@@ -46,3 +46,7 @@ Add a child route. Adds to '' route by default
 #### Returns
 
 * [FramingNgModule](framing-ng-module-class.md)
+
+#### Example
+
+`` Framing.child({ path: 'products', loadChildren: './products/index#ProductsModule' }) ``
