@@ -92,3 +92,32 @@ Basic usage
   ])
   .frame())
  ```
+ 
+ 
+ 
+ ### component(component: any, config?: FramingComponentConfig): FramingNgModule
+ 
+Adds to declarations
+Adds to exports
+Adds as component on route
+Optional noDeclare parameter can be set to true to prevent the component from being declared if it is already declared in another module
+
+#### Parameters
+
+* component: any
+* config?: [FramingComponentConfig](framing-component-config-interface.md)
+
+#### Returns
+
+* [FramingNgModule](framing-ng-module-class.md)
+
+#### Example
+
+Basic usage
+
+```typescript
+@NgModule(Framing
+  .ngModule()
+  .component(MyViewComponent)
+  .frame())
+ ```
