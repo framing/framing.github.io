@@ -49,4 +49,9 @@ Add a child route. Adds to '' route by default
 
 #### Example
 
-`` Framing.child({ path: 'products', loadChildren: './products/index#ProductsModule' }) ``
+``
+@NgModule(Framing
+  .ngModule()
+  .child({ path: 'products', loadChildren: './products/index#ProductsModule' })
+  .frame()
+ ``
