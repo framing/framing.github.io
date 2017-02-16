@@ -65,7 +65,24 @@ Basic usage
   .frame())
  ```
 
+Output
 
+```typescript
+@NgModule({
+  imports: [
+    CommonModule,
+    RouterModule,
+    RouterModule.forRoutes([
+      {
+        path: '',
+        children: [
+          { path: 'products', loadChildren: './products/index#ProductsModules' },
+        ],
+      }
+    ]);
+  ],
+})
+```
 
 ### children(children: Route[]): FramingNgModule
 
