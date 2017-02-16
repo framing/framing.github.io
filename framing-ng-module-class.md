@@ -6,11 +6,11 @@
 
 
 
-### constructor(ngModule?: NgModule)
+### constructor(ngModule?: [NgModule](https://angular.io/docs/ts/latest/api/core/index/NgModule-interface.html))
 
 #### Parameters
 
-* ngModule?: NgModule
+* ngModule?: [NgModule](https://angular.io/docs/ts/latest/api/core/index/NgModule-interface.html)
 
 #### Returns
 
@@ -22,7 +22,7 @@
 
 
 
-### ngModule(ngModule?: NgModule): FramingNgModule
+### ngModule(ngModule?: NgModule): [FramingNgModule](framing-ng-module-class.md)
 
 #### Parameters
 
@@ -34,20 +34,22 @@
 
 
 
-### child(child: Route, forRoute: Route = {}): FramingNgModule
+### child(child: [Route](https://angular.io/docs/ts/latest/api/router/index/Route-interface.html), forRoute: [Route](https://angular.io/docs/ts/latest/api/router/index/Route-interface.html) = {}): [FramingNgModule](framing-ng-module-class.md)
 
 Add a child route. Adds to '' route by default
 
 #### Parameters
 
-* child: Route
-* forRoute: Route = {}
+* child: [Route](https://angular.io/docs/ts/latest/api/router/index/Route-interface.html)
+* forRoute: [Route](https://angular.io/docs/ts/latest/api/router/index/Route-interface.html) = {}
 
 #### Returns
 
 * [FramingNgModule](framing-ng-module-class.md)
 
 #### Example
+
+Basic usage
 
 ```typescript
 @NgModule(Framing
