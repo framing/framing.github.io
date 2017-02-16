@@ -1,5 +1,10 @@
 # FramingNgModule class
 
+* Constructor
+** [constructor(ngModule)](#constructorngmodule-ngmodule)
+* Public Methods
+** [ngModule(ngModule)](#ngmodulengmodule-ngmodule-framingngmodule)
+** [child(child, forRoute)](#childchild-route-forroute-route---framingngmodule)
 
 
 ## Constructor
